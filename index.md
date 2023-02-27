@@ -11,12 +11,15 @@ So, paste
 And hit 
 <code>&lt;enter&gt;</code>  
 if your key is set up correctly this should log you in and print the standard server configuration and starting info
-![Image](pictures/ssh)
+![Image](pictures/ssh.png)  
+
 ---
-next you would clone the repository on git
-typing <code>git clo&lt;tab&gt;</code>  
-then pasting in your ssh git URL mine being <code>git@github.com:bishopcam/lab7.git</code> 
----
+
+next you would clone the repository on git typing <code>git clo&lt;tab&gt;</code> then pasting in your ssh git URL mine being <code>git@github.com:bishopcam/lab7.git</code> 
+
+![Image](pictures/gitclone.png) 
+
+
 ### Final Optimizations 
 First, copy paste (or up arrow on subsequent attempts) the ssh to log in as quicky as possible
 ```
@@ -36,3 +39,4 @@ git commit -m "ListExamples.java"
 git push origin main
 ```
 by doing this we basically optimized out everything except the load time for logging into the server, then the runtime of all of the commands that are needed for the challenge. This basically ended up being around **9 seconds** long.
+
